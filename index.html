@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Index with Buttons and iFrames</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .button-container {
+            margin-bottom: 20px;
+        }
+        .url-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .iframe-container {
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Simple Index</h1>
+
+    <div class="button-container">
+        <h2>URL Buttons</h2>
+        <a href="https://www.example.com" class="url-button" target="_blank">Example.com</a>
+        <a href="https://www.google.com" class="url-button" target="_blank">Google</a>
+        <a href="https://www.github.com" class="url-button" target="_blank">GitHub</a>
+    </div>
+
+    <div class="iframe-container">
+        <h2>iFrame 1</h2>
+        <iframe src="https://www.example.com"></iframe>
+    </div>
+
+    <div class="iframe-container">
+        <h2>iFrame 2</h2>
+        <iframe src="https://www.wikipedia.org"></iframe>
+    </div>
+
+    <div class="iframe-container">
+        <h2>Audio iFrame</h2>
+        <iframe width="100%" height="60" frameborder="0" scrolling="no">
+            <audio controls>
+                <source src="https://ipfs.io/ipfs/QmVTaD13t1rjKqXpACaGZRehfF4K8C1ko1btjRirgNQrWc?filename=VERKNIPT_Japau_%40_Verknipt_Kingsday_2024_Hembrugterrein%2C_Zaan_rate.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </iframe>
+    </div>
+</body>
+</html>
